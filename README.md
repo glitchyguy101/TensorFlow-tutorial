@@ -1,37 +1,54 @@
-TensorFlow Practice: Fashion MNIST & IMDB Reviews
+# TensorFlow Practice: Fashion MNIST & IMDB Reviews
 
-This repository contains my practice implementations of deep learning models using TensorFlow and Keras. The project focuses on two fundamental tasks in machine learning: computer vision (image classification) and natural language processing (sentiment analysis).
+This repository contains practice implementations of deep learning
+models built using TensorFlow and Keras. The project explores two key
+areas of machine learning:
 
-📂 Project Overview
+- Computer Vision: Image classification using the Fashion MNIST dataset
+- Natural Language Processing: Sentiment analysis using the IMDB movie
+  reviews dataset
 
-Fashion MNIST Classification
-Goal: Classify grayscale images of clothing items into 10 categories (e.g., T-shirt, Trouser, Sneaker).
+Both tasks demonstrate essentials such as data preprocessing, model
+building, training, evaluation, and visualization.
 
-Dataset: Fashion MNIST
 
-60,000 training images, 10,000 test images.
+## Project Overview
 
-28x28 grayscale pixel resolution.
+### 1. Fashion MNIST Classification
 
-Model Approach: Convolutional Neural Network (CNN) / Dense Neural Network.
+- Goal: Classify images of clothing items into 10 categories such as
+  T-shirt, Trouser, Sneaker, etc.
+- Dataset: Fashion MNIST
+  - 60,000 training images
+  - 10,000 test images
+  - 28×28 grayscale
+- Model Approaches:
+  - Dense Neural Network (DNN)
+  - Convolutional Neural Network (CNN)
 
-IMDB Movie Review Sentiment Analysis
-Goal: Classify movie reviews as either "Positive" or "Negative".
+### 2. IMDB Movie Review Sentiment Analysis
 
-Dataset: IMDB Large Movie Review Dataset
+- Goal: Classify movie reviews as Positive or Negative.
+- Dataset: IMDB Large Movie Review Dataset
+  - 25,000 training reviews
+  - 25,000 test reviews
+- Model Approach:
+  - Text vectorization
+  - Embedding layers
+  - Global Average Pooling classifier
 
-50,000 reviews (25k train, 25k test).
+## Features
 
-Model Approach: Text Vectorization with Embedding layers and Global Average Pooling.
+- Clean and simple TensorFlow training workflows
+- Clear model architectures for beginners
+- Accuracy/loss visualization using Matplotlib
+- Example predictions for both text and images
+- Easy-to-modify code structure
 
-🛠️ Tech Stack & Dependencies
+## Tech Stack & Dependencies
 
-Python 3.x
-
-TensorFlow / Keras (2.x)
-
-NumPy (Data manipulation)
-
-Matplotlib (Visualization of training history and predictions)
-
-Pandas (Data handling)
+- Python 3.x
+- TensorFlow / Keras (2.x)
+- NumPy
+- Matplotlib
+- Pandas
